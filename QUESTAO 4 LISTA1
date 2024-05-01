@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner ler=new Scanner(System.in);
+        
+        System.out.println("Digite o nome");
+        String nome=ler.nextLine();
+        
+        System.out.println("Digite o endereço:");
+        String endereço=ler.nextLine();
+        
+        System.out.println("Digite o seu numero");
+        String numero=ler.nextLine();
+        
+        System.out.println(nome);
+        System.out.println(endereço);
+        System.out.println(numero);
+	}
+}
